@@ -1,0 +1,48 @@
+#div1{
+    margin-top: 20px;
+   
+    height: auto;
+}
+
+#div2{
+height: 220px;
+border-radius: 7%;
+/* border: solid; */
+/* border-color: black; */
+margin: 10px;
+background-image: linear-gradient(to bottom, rgb(39, 39, 39), purple) ;
+color: white;
+}
+
+#div3{
+height: 140px;
+border-radius: 7%;
+/* border: solid; */
+/* border-color: black; */
+background-image: linear-gradient(to bottom, rgb(39, 39, 39), purple) ;
+margin: 10px;
+color: white;
+}
+
+#div4{
+    background-image: linear-gradient(to bottom, rgb(39, 39, 39), purple) ;
+    box-shadow: 12px 12px 2px 1px rgba(88, 86, 88, 0.2);
+    height: 535px;
+}
+#div5{
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgba(88, 86, 88, 0.2);
+}
+#button{
+    background-image: linear-gradient(to bottom, rgb(39, 39, 39), purple) ;
+    color: white;
+}
+#button:hover{
+    background-image: linear-gradient(to bottom, rgb(39, 39, 39), purple) ;
+    color: white;
+    box-shadow: 10px 10px 2px 1px rgba(88, 86, 88, 0.2);
+}
+input:hover{
+    border-color: purple;
+    
+}
