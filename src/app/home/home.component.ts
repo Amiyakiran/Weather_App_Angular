@@ -15,6 +15,8 @@ temp:any
 feels:any
 date = new Date();
 time = this.date.getHours()
+
+
   constructor(private http:HttpClient){}
 
   ngOnInit(): void {
@@ -46,6 +48,7 @@ time = this.date.getHours()
       
       this.temp = ((data.main.temp)-273.15).toFixed(0)
     this.feels = ((data.main.feels_like)-273.15).toFixed(0)
+    
     })
   }
 
