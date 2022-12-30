@@ -42,7 +42,7 @@
                             </div>
                             <div class="col-6">
                                 <img class="ms-4" src="https://www.freeiconspng.com/thumbs/weather-icon-png/weather-icon-png-8.png" alt="" width="70px" height="70px" *ngIf="time<18">
-                                <img class="ms-4"  src="../../assets/132-1323443_simple-weather-icons-cloudy-night-night-weather-icon-removebg-preview.png" alt=""  width="80px" height="70px" *ngIf="time<=18">
+                                <img class="ms-4"  src="../../assets/132-1323443_simple-weather-icons-cloudy-night-night-weather-icon-removebg-preview.png" alt=""  width="80px" height="70px" *ngIf="time>=18">
                                 <p class="ms-4"  style="font-size: 10px; margin: 0;">Feels Like {{feels}}°<span style="font-size: 8px;">C</span>, {{data.weather[0].description}}</p>
                                
                             </div>
